@@ -72,8 +72,8 @@ const Register = ({ title, time }) => {
 				<div className="bg-black bg-opacity-80 backdrop-blur-sm justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
 					<div className="relative   lg:mt-[0px] md:mt-[0px]  mt-[100px]">
 						{/*content*/}
-						<div className="border-0 lg:p-4 md:p-10 p-2 rounded-lg shadow-lg relative flex flex-col  lg:w-[80rem] bg-white outline-none focus:outline-none">
-							<section className='bg-white lg:mb-10 rounded-2xl ' >
+						<div className="border-0  shadow-lg relative flex flex-col  lg:w-[80rem] bg-white outline-none focus:outline-none rounded-2xl ">
+							<section className='  ' >
 								<div className='bg-[#008000] text-white lg:text-2xl text-sm font-bold  rounded-t-2xl lg:p-4 p-2 lg:px-10 px-2'>
 									<h1>Bukasa Technologies Training</h1>
 									<h1>{title}</h1>
