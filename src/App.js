@@ -5,7 +5,6 @@ import CompanyDetails from "./components/CompanyDetails";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
-import Form from "./components/Form";
 import CourseSection from "./components/CourseSection";
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
       <CompanyDetails />
       <About />
       <Services />
-      {/* <Form /> */}
       <CourseSection />
       <Footer />
     </div>

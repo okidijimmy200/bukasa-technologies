@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlineCalendar, AiOutlineClockCircle, AiOutlineOpenAI } from 'react-icons/ai';
+import { AiOutlineClockCircle } from 'react-icons/ai';
 import { IoLocationSharp } from 'react-icons/io5';
 import { MdOutlineDownloadForOffline } from "react-icons/md";
 import Register from './Register';

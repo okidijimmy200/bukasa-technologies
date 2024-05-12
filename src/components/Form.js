@@ -18,11 +18,9 @@ const Form = () => {
 		e.preventDefault();
 
 		if (!name || !email || !message, !phone, !transId, !purpose) {
-			setError("Please fill out all fields.");
+			toast.error("Please fill out all fields.");
 			return;
 		}
-
-		setError("");
 		setLoading(true);
 
 		try {

@@ -6,7 +6,6 @@ const Register = ({ title, time }) => {
 	const [showModal, setShowModal] = useState(false);
 
 	const [loading, setLoading] = useState(false);
-	const [error, setError] = useState("");
 	const [name, setName] = useState('')
 	const [phone, setPhone] = useState('')
 	const [email, setEmail] = useState('')
@@ -20,11 +19,9 @@ const Register = ({ title, time }) => {
 		e.preventDefault();
 
 		if (!name || !email || !message, !phone, !transId, !purpose) {
-			setError("Please fill out all fields.");
+			toast.error("Please fill out all fields.");
 			return;
 		}
-
-		setError("");
 		setLoading(true);
 
 		try {
