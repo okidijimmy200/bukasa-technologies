@@ -18,7 +18,7 @@ const Register = ({ title, time }) => {
 		console.log('form submitting....')
 		e.preventDefault();
 
-		if (!name || !email || !message, !phone, !transId, !purpose) {
+		if (!name || !email || !message || !phone || !transId || !purpose) {
 			toast.error("Please fill out all fields.");
 			return;
 		}
