@@ -67,11 +67,11 @@ const Register = ({ title, time }) => {
 			</button>
 			{showModal ? (
 				<div className="bg-black bg-opacity-80 backdrop-blur-sm justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
-					<div className="relative   lg:mt-[0px] md:mt-[0px]  mt-[100px]">
+					<div className=" relative   lg:mt-[0px] md:mt-[0px] ">
 						{/*content*/}
-						<div className="border-0  shadow-lg relative flex flex-col  lg:w-[80rem] bg-white outline-none focus:outline-none rounded-2xl ">
+						<div className="mt-0 border-0  shadow-lg relative flex flex-col  lg:w-[80rem] bg-white outline-none focus:outline-none lg:rounded-xl ">
 							<section className='  ' >
-								<div className='bg-[#008000] text-white lg:text-2xl text-sm font-bold  rounded-t-2xl lg:p-4 p-2 lg:px-10 px-2'>
+								<div className='bg-[#008000] text-white lg:text-2xl text-sm font-bold  rounded-t-lg lg:p-4 p-2 pl-4 lg:px-10 px-2 lg:pt-6  pt-8 lg:pb-6  lg:mt-0 mt-24'>
 									<h1>Bukasa Technologies Training</h1>
 									<h1>{title}</h1>
 								</div>
